@@ -38,12 +38,21 @@
 
 .barchart{
     width: 700px;
-    height: 500px;
 }
 
 p{
     font-size: 20px;
     text-align: center;
+}
+
+.saveBtn{
+    background-color: #64db30;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    width: 150px;
 }
 
 @media (max-width: 767px){
