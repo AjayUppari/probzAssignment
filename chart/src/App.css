@@ -21,21 +21,48 @@
 }
 
 .timeFrameButton{
-    background-color: #69f09f;
-    border: none;
+    color: #69f09f;
+    border: solid 1px #69f09f;
     font-size: 20px;
-    padding: 15px;
+    padding: 5px;
     width: 120px;
-    color: #fff;
+    background-color: #fff;
     border-radius: 20px;
     cursor: pointer;
 }
 
 .active{
-    background-color: #9AD0F5;
+    background-color: #69f09f;
+    color: #fff;
 }
 
 .barchart{
     width: 700px;
     height: 500px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .appContainer{
+        padding: 10px;
+    }
+
+    .barchart{
+        width: 350px;
+        height: 300px;
+    }
+
+    .timeframesButtons{
+        width: 100%;
+        gap: 5px;
+    }
+
+    .timeFrameButton{
+        font-size: 15px;
+        padding: 10px;
+    }
 }

@@ -137,6 +137,10 @@ class App extends Component {
             Monthly
           </button>
         </div>
+        <div>
+          <p>Pinch or scroll to Zoom</p>
+          <p>Move to watch specifc section of the graph</p>
+        </div>
         <div  className="barchart">
           <Bar options={options} data={{labels: activeLabels, datasets: [{label: activeChart, data: chartData, backgroundColor: 'rgba(53, 162, 235, 0.5)',}]}}/>
         </div>
